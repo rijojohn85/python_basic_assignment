@@ -10,4 +10,5 @@ class Average:
 
 
 avg = Average(1, 2, 3, 4, 5)
+print(avg.average())
 assert avg.average() == 3.0
