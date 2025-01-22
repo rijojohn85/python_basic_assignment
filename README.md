@@ -10,4 +10,4 @@
 6. [Assignment6](./solutions/assignment_6.py)
 7. [Assignment7](./solutions/assignment_7.py)
 8. [Assignment8](./solutions/assignment_8.py)
-9. [Assignment9](./solutions/assignment_9.py)
+9. [Assignment9](./solutions/assignment9/)
