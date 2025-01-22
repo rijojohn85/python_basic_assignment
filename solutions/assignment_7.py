@@ -13,7 +13,9 @@ def print_eng_spelling():
     flag = False
 
     while not flag:
-        user_input = input("Enter number: ")
+        user_input = input("Enter number or 'q' to quit: ")
+        if user_input == "q":
+            break
         try:
             print(myDict[user_input])
             flag = True
