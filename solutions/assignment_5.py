@@ -4,6 +4,10 @@
 def average(*args):
     return sum(args) / len(args)
 
+def string_forming(*args):
+    return "".join(args)
+
 
 if __name__ == "__main__":
+    print(string_forming('h', 'e', 'l', 'l', 'o'))
     assert average(1, 2, 3, 4, 5) == 3.0
