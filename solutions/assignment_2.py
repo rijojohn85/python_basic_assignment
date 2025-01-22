@@ -19,7 +19,22 @@ def fibonacci_forloop():
         if i > 100:
             break
 
+def rec_fibonacci(n):
+    if n <= 1:
+        return n
+    return rec_fibonacci(n-1) + rec_fibonacci(n-2)
+
+
+
 
 if __name__ == "__main__":
+    print("With while loop:")
     fibonacci_whileloop()
+    print("With for loop:")
     fibonacci_forloop()
+    print("With recursion")
+    for i in range(100):
+        fib = rec_fibonacci(i)
+        if fib > 100:
+            break
+        print(fib)
