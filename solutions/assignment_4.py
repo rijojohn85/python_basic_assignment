@@ -3,12 +3,11 @@ def write_to_file():
     user_input = ""
     output = ""
     while user_input != "quit":
-        user_input = input("enter text: ")
         output += user_input
+        user_input = input("enter text: ")
 
-    file = open("output.txt", "w")
-    file.write(output)
-    file.close()
+    with open("output.txt", "w") as file:
+        file.write(output)
 
 
 if __name__ == "__main__":
