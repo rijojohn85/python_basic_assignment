@@ -1,0 +1,3 @@
+[submodule "FastAPICosmosDB"]
+	path = FastAPICosmosDB
+	url = git@github.com:rijojohn85/FastAPICosmosDB.git
